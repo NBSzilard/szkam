@@ -7,3 +7,8 @@
     height: 20rem;
     object-fit: cover;
 }
+
+.play-btn {
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
