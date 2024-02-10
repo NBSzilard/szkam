@@ -1,4 +1,9 @@
-.h {
+.h-7 {
     height: 7rem;
+    object-fit: cover;
+}
+
+.h-20 {
+    height: 20rem;
     object-fit: cover;
 }
