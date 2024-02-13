@@ -11,9 +11,9 @@ function play(event) {
 document.getElementById('play-btn').addEventListener('click', function() {
 var button = this;
 
-if (button.innerHTML === '▶️') {
-    button.innerHTML = '⏸️';
+if (button.innerHTML === '►') {
+    button.innerHTML = '&#10074;&#10074;';
 } else {
-    button.innerHTML = '▶️';
+    button.innerHTML = '►';
 }
 });
