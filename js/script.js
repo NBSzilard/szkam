@@ -6,3 +6,14 @@ function play(event) {
     document.getElementById('eloado').innerText = eloado;
     document.getElementById('cim').innerText = cim;
 }
+
+
+document.getElementById('play-btn').addEventListener('click', function() {
+var button = this;
+
+if (button.innerHTML === '▶️') {
+    button.innerHTML = '⏸️';
+} else {
+    button.innerHTML = '▶️';
+}
+});
